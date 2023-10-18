@@ -49,6 +49,7 @@ public:
     float area;
     float calculateArea(){
         std::cout << "Area is calculated";
+        return area;
     };
 };
 
@@ -63,6 +64,7 @@ public:
     };
     float calculatePerimeter(){
         perimeter = height + base; //wong
+        return perimeter;
     }
 };
 class Rectangle: public Figure{
